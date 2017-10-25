@@ -7,3 +7,4 @@ dependencies:
     - ipyleaflet
     - shapely
     - ipywidgets
+    - plotly
