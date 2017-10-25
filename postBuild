@@ -1,4 +1,4 @@
 #!/bin/bash
 
-jupyter nbextension enable --py --sys-prefix ipyleaflet
-
+apt-get update && apt-get install -y libgeos-dev
+jupyter nbextension enable --py --sys-prefix widgetsnbextension && jupyter nbextension enable --py --sys-prefix ipyleaflet
