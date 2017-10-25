@@ -1,0 +1,9 @@
+name: example-environment
+
+dependencies:
+    - python=2.7.12
+    - numpy
+    - pandas
+    - ipyleaflet
+    - shapely
+    - ipywidgets
